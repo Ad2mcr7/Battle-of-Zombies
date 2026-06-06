@@ -2,23 +2,79 @@
 <html>
 <head>
 
-    <title>Battle of Zombies - Jeu de survie</title>
+<title>Battle of Zombies</title>
 
-    <meta name="description" content="Battle of Zombies est un jeu de survie où tu combats des vagues de zombies.">
+<style>
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #00ff00; transform: scale(1); }
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Battle of Zombies</title>
+
+<meta name="description" content="Battle of Zombies est un jeu de survie où tu combats des vagues de zombies.">
+<meta name="keywords" content="Battle of Zombies, jeu zombies, survie">
+
+<style>
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #00ff00; transform: scale(1); }
+    50% { text-shadow: 0 0 20px #00ff00; transform: scale(1.1); }
+    100% { text-shadow: 0 0 5px #00ff00; transform: scale(1); }
+}
+
+h1 {
+    animation: glow 2s infinite;
+    color: white;
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Battle of Zombies</title>
+
+    <meta name="description" content="Battle of Zombies est un jeu de survie où tu combats des vagues de zombies. Survis le plus longtemps possible.">
     <meta name="keywords" content="Battle of Zombies, jeu zombies, survie">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    @keyframes glow {
+        0% { text-shadow: 0 0 5px #00ff00; transform: scale(1); }
+        50% { text-shadow: 0 0 20px #00ff00; transform: scale(1.1); }
+        100% { text-shadow: 0 0 5px #00ff00; transform: scale(1); }
+    }
+
+    h1 {
+        animation: glow 2s infinite;
+        color: white;
+        font-weight: bold;
+    }
+    </style>
 
 </head>
 
-<body>
+<body style="background-color:#0b3d0b; text-align:center; color:white; font-family:Arial;">
 
-    <h1>🧟 Battle of Zombies 🧟</h1>
+    <h1>🧟 Battle of Zombies</h1>
 
-    <p>Battle of Zombies est un jeu de survie où tu affrontes des vagues de zombies qui veulent attaquer ton perssonage. Télécharge-le et essaye de survivre le plus longtemps possible !</p>
+    <p>
+        Battle of Zombies est un jeu de survie où tu affrontes des vagues de zombies.
+        Survis le plus longtemps possible ! Et ne les laisse surtout pas toucher le perssonage et defonce les avec vous, le pistolet automatique.
+    </p>
 
     <a href="BattleOfZombies.exe" download>
-        🎮 Télécharger le jeu
+        <button style="font-size:20px; padding:10px; cursor:pointer; margin-top:10px;">
+            🎮 Télécharger le jeu
+        </button>
     </a>
+
+    <div style="margin-top:30px;">
+        <h2>🖼️ Image du jeu</h2>
+
+        <img src="poster.png"
+             width="450"
+             style="border:4px solid #00ff00; border-radius:12px;">
+    </div>
 
 </body>
 </html>
