@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ad2mcr7.github.io/Battle-of-Zombies/sitemap.xml
